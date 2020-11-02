@@ -13,3 +13,9 @@ print(sqrt(8))
 
 print(expand(x*expr))
 print(factor(expand(x*expr)))
+
+# creating the numbered symbols ....
+# like a0,a1
+syms = symbols('a0:5')
+print(syms)
+
